@@ -15,4 +15,8 @@ contract TestSol2 {
     function getValue() public view returns (uint256) {
         return _value;
     }
+
+    function getTimeStamp() public view returns (uint256) {
+        return block.timestamp;
+    }
 }
